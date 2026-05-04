@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bence's Portfolio</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+
+<nav id="sidebar">
+  <div class="sb-head">
+    <div class="logo-mark">
+      <img src="logo-26white.png" alt="" style="height:40px">
+    </div>
+  </div>
+  <div id="sb-scroll"></div>
+  <div class="sb-foot">
+    <a href="" data-page="about">About</a>
+    <a href="" data-page="contact">Contact</a>
+  </div>
+</nav>
+
+<div id="main">
+  <div id="topbar">
+    <div class="tb-crumb">
+      <span class="tb-crumb-archive" style="cursor:pointer">Portfolio</span>
+      <span class="tb-sep">/</span>
+      <span class="tb-name" id="tb-name">&nbsp;</span>
+    </div>
+    <div class="tb-right">
+      <button class="icon-btn" id="btn-filter" title="Filter" onclick="toggleFilter()">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M2 4h12M4.5 8h7M7 12h2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="filter-panel">
+    <div class="fp-lbl">Year</div>
+    <div class="fp-chips" id="fp-chips"></div>
+  </div>
+
+  <div id="scroll-area">
+    <div class="main-inner" id="main-inner"></div>
+  </div>
+</div>
+</div>
+
+<div id="mobile-bar">
+  <button class="mb-btn" id="mb-info-btn" onclick="toggleMobInfo()">
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="10" cy="10" r="8.5"/><path d="M10 9.5v5M10 7v.5" stroke-linecap="round"/></svg>
+    <span>Info</span>
+  </button>
+  <button class="mb-btn" onclick="navPrev()">
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 5l-5 5 5 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Prev</span>
+  </button>
+  <button class="mb-logo" onclick="scrollToTop()">
+    <img src="logo-26white.png" alt="" style="height:30px">
+    <span class="mb-logo-sub">Portfolio</span>
+  </button>
+  <button class="mb-btn" onclick="navNext()">
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 5l5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Next</span>
+  </button>
+  <button class="mb-btn" id="mb-filter-btn" onclick="toggleFilter()">
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 5.5h14M6 10h8M9.5 14.5h1" stroke-linecap="round"/></svg>
+    <span>Filter</span>
+  </button>
+</div>
+
+<div id="mob-info-sheet">
+  <div class="mis-handle"></div>
+  <div class="mis-title" id="mis-title">—</div>
+  <div class="mis-sub"   id="mis-sub">—</div>
+  <div class="mis-desc"  id="mis-desc"></div>
+  <div class="mis-tags"  id="mis-tags"></div>
+</div>
+
+<script src="port.js"></script>
+</body>
+</html>
