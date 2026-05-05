@@ -641,7 +641,13 @@ function navNext() {
   }
 }
 function scrollToTop() {
-  document.getElementById('scroll-area').scrollTo({ top:0, behavior:'smooth' });
+  if (activePage) {
+    closePage();
+    return;
+  }
+
+  document.getElementById('scroll-area')
+    .scrollTo({ top: 0, behavior: 'smooth' });
 }
  
 function toggleFilter() {
