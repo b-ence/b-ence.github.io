@@ -1,7 +1,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:           #191a11;
+  --bg:           #0b0b0c;
   --bg2:          #111111;
   --bg3:          #1a1a1a;
   --bg4:          #222222;
@@ -375,6 +375,15 @@ html, body { height:100%; background:var(--bg); color:var(--text-hi); font-famil
   display: block;
   transition: transform .5s var(--ease);
 }
+
+.work-img-wrap img.full {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity .35s ease, transform .5s var(--ease);
+}
+.work-img-wrap img.full.show { opacity: 1; }
+
 .work-card:hover .work-img-wrap img { transform: scale(1.025); }
 
 .work-placeholder {
