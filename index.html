@@ -7,7 +7,7 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -20,9 +20,11 @@
     </div>
   </div>
   <div id="sb-scroll"></div>
+  <div class="sb-hint">↑↓ series · ←→ works · esc close</div>
   <div class="sb-foot">
-    <a href="" data-page="about">About</a>
-    <a href="" data-page="contact">Contact</a>
+    <a href="#" data-page="work" class="active">Work</a>
+    <a href="#" data-page="about">About</a>
+    <a href="#" data-page="contact">Contact</a>
   </div>
 </nav>
 
@@ -38,18 +40,19 @@
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
           <path d="M2 4h12M4.5 8h7M7 12h2" stroke-linecap="round"/>
         </svg>
+        <span class="fb-badge" hidden></span>
       </button>
     </div>
   </div>
 
-  <div id="filter-panel">
-    <div class="fp-lbl">Year</div>
-    <div class="fp-chips" id="fp-chips"></div>
-  </div>
+  <div id="filter-panel"></div>
+
+  <div id="active-filters" hidden></div>
 
   <div id="scroll-area">
     <div class="main-inner" id="main-inner"></div>
   </div>
+  <button id="to-top" aria-label="Back to top" onclick="scrollToTop()"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 13V3M3.5 7.5L8 3l4.5 4.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Top</span></button>
 </div>
 </div>
 
@@ -72,7 +75,7 @@
   </button>
   <button class="mb-btn" id="mb-filter-btn" onclick="toggleFilter()">
     <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 5.5h14M6 10h8M9.5 14.5h1" stroke-linecap="round"/></svg>
-    <span>Filter</span>
+    <span>Filter</span><span class="fb-badge" hidden></span>
   </button>
 </div>
 
