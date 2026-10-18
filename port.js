@@ -18,37 +18,37 @@ const DATA = [
         works: [
           { id:"z3", title:"Conan the Barbarian Grub", medium:"Digital Oils", type:"Personal",
             desc:"Grub TCG continues with the second set in 2026. This particular card illustration is inspired by Frank Frazetta's Conan the Barbarian painting. I tried my best to not over-render things, and rely on implied detail with readable, clearly designed shapes.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/grub-barbarian.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/grub-barbarian.webp", aspect: 0.715 },
           { id:"z4", title:"Resident Evil Grub", medium:"Digital Oils", type:"Personal",
             desc:"A Grub TCG painting inspired by the video game Resident Evil 2. I had a very clear image in my mind before I started working on this one, and I think I managed to nail it. The special effects were fun to figure out, using different brushes besides my usual default painting brush in Clip Studio Paint. This one also features a background element, Mr. X grub. My compositional skills are starting to show here. I also painted this entirely on livestream.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/leon-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/leon-grub.webp", aspect: 0.715 },
           { id:"z5", title:"Street Fighter Grub", medium:"Digital Inks", type:"Personal",
             desc:"Grub TCG illustration inspired by Street Fighter, more specifically the character Ryu. Done on livestream, I decided to go back to inks, because most of my previous grubs were all painted in digital oils. Funnily enough I'm more of a Tekken player, but I always preferred Street Fighter visually. Third Strike is a beautiful game. I mean Ken in SF3, and currently learning Akuma in SF6.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/ryu-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/ryu-grub.webp", aspect: 0.715 },
           { id:"z6", title:"Balatro Grub", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"A Balatro inspired Jimbo grub for Grub TCG. When I saw Balatro got nominated for Game of the Year, I thought there's no way a card game could ever be even nominated for such thing. Then I ended up giving it try, which led to addiction. Balatro inspired a chat command which generated items in Balatro fashion, with quirky effects. This combined with Pokémon TCG lead to the creation of Grub TCG.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/balatro-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/balatro-grub.webp", aspect: 0.715 },
 		  { id:"z7", title:"Chun Li Grub", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"Street Fighter inspired Grub TCG card. We finally have some female grubs! I got pretty good at Third Strike since drawing the Ryu grub card, we'd spar with OG for hours on weekends. Third Strike is probably in my top 5 games ever nowadays.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/chun-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/chun-grub.webp", aspect: 0.715 },
 		  { id:"z8", title:"DOOM Grub", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"TCG card inspired by DOOM 2016's cover art. Funnily enough this was about the 5th card I started painting when the project started, but didn't get to finish it until just now.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/doom-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/doom-grub.webp", aspect: 0.715 },
 		  { id:"z9", title:"Solaire Grub", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"Inspired by Dark Souls' Solaire character. Rendering this one was very fun, but at the same time I can't remember how I did certain things now. Sometimes I go back and re-watch my livestreams to learn techniques from myself lol. I was locked the hell in while painting this, that's for sure.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/solaire-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/solaire-grub.webp", aspect: 0.715 },
 		  { id:"z10", title:"Green Grublin", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"Since we have Spidey Grub it was about time to have a Green Grublin as well. Might have to paint a Doc Ock grub too in the near future.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/green-grublin.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/green-grublin.webp", aspect: 0.715 },
 		  { id:"z11", title:"Malenia Grub", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"Another lady grub, inspired by Malenia from Elden Ring.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/malenia-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/malenia-grub.webp", aspect: 0.715 },
 		  { id:"z12", title:"Mobile Suit Grubdam", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"A cool mecha grub inspired by Mobile Suit Gundam! Actually I don't know anything about Gundam, I just like the mecha designs.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/gundam-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/gundam-grub.webp", aspect: 0.715 },
 		  { id:"z13", title:"Halloween Witch Grub", medium:"Digital Oils/Pixel Art", type:"Personal",
             desc:"Seasonal card illustration for this year's Halloween. This card was requested by Strawberry, and it was a great excuse for me to paint boobs. I did this in one go, it took 9 hours form start to finish with some breaks in-between.",
-            tags:["tarding card","fanart", "study"], src:"img/2026/witch-grub.webp", aspect: 0.715 },
+            tags:["trading card","fanart", "study"], src:"img/2026/witch-grub.webp", aspect: 0.715 },
         ]
       },
     ]
@@ -96,7 +96,7 @@ const DATA = [
           { id:"a19", title:"Skeriiz Logo", medium:"Digital Oils", type:"Commission",
             desc:"Painted version of a logo I made. The intiial idea was to have something brutal, something to do with a grizzly bear, so I came up with this jaw. The front row of teeth also spells out \'Skeriiz\'.",
             tags:["commission","oil","logo"], src:"img/2025/skeriiz-avatar-elephant.webp", aspect: 1 },
-          { id:"a20", title:"Skeriiz Logo", medium:"Digital Oils", stype:"Commission",
+          { id:"a20", title:"Skeriiz Logo", medium:"Digital Oils", type:"Commission",
             desc:"Painted version of a logo I made. The intiial idea was to have something brutal, something to do with a grizzly bear, so I came up with this jaw. The front row of teeth also spells out \'Skeriiz\'.",
             tags:["commission","oil","logo"], src:"img/2025/skeriiz-avatar-normal.webp", aspect: 1 },
           { id:"a21", title:"Skeriiz Logo", medium:"Digital Oils", type:"Commission",
@@ -305,8 +305,29 @@ let observer;
 const bgPalette = ['#181510','#101518','#131018','#181013','#101813','#181616','#131318','#181813'];
 let bgIdx = 0;
  
+const filters = { year: null, type: null, medium: null, tag: null };
+const TAG_ALIAS = { ink: 'inks', oil: 'oils', 'tarding card': 'trading card' };
+const TAG_SKIP  = new Set(['inks', 'oils', 'commission', 'pastel', 'traditional', 'pencil', 'color']);
+const normTag = t => { t = String(t).toLowerCase().trim(); return TAG_ALIAS[t] || t; };
+const MEDIUM_RULES = [[/oil/, 'Oils'], [/ink/, 'Inks'], [/pastel/, 'Pastels'], [/pixel/, 'Pixel art'], [/3d/, '3D'], [/pencil|traditional/, 'Traditional'], [/mixed/, 'Mixed']];
+function mediumsOf(w) {
+  const m = (w.medium || '').toLowerCase();
+  return MEDIUM_RULES.filter(([r]) => r.test(m)).map(([, n]) => n);
+}
+function workMatches(w) {
+  if (filters.type   && w.type !== filters.type) return false;
+  if (filters.medium && !mediumsOf(w).includes(filters.medium)) return false;
+  if (filters.tag    && !(w.tags || []).map(normTag).includes(filters.tag)) return false;
+  return true;
+}
 function visibleData() {
-  return activeYear ? DATA.filter(y => y.year === activeYear) : DATA;
+  return DATA
+    .filter(y => !filters.year || y.year === filters.year)
+    .map(y => ({ ...y, series: y.series.map(s => ({ ...s, works: s.works.filter(workMatches) })).filter(s => s.works.length) }))
+    .filter(y => y.series.length);
+}
+function countVisible() {
+  return visibleData().reduce((a, y) => a + y.series.reduce((b, s) => b + s.works.length, 0), 0);
 }
 function allSeriesNodes() {
   const nodes = [];
@@ -451,45 +472,106 @@ function buildMain() {
   initAllWheelScroll();
 }
  
+function crumbOf(n) { return `${n.year} · ${n.s.name || n.s.works[0]?.title || ''}`; }
+
 function buildSidebar() {
   const scroll = document.getElementById('sb-scroll');
   scroll.innerHTML = '';
- 
+
   visibleData().forEach(yrData => {
+    const total = yrData.series.reduce((a, s) => a + s.works.length, 0);
     const wrap = document.createElement('div');
- 
+    wrap.className = 'sb-group';
+
     const yr = document.createElement('div');
     yr.className = 'sb-year-row';
     yr.dataset.year = yrData.year;
-    yr.innerHTML = `<div class="sb-yr-dot-wrap"><div class="sb-yr-dot"></div></div><span class="sb-yr-label">${yrData.year}</span>`;
-    yr.addEventListener('click', () => scrollToYear(yrData.year));
+    yr.tabIndex = 0;
+    yr.setAttribute('role', 'button');
+    yr.innerHTML = `<div class="sb-yr-dot-wrap"><div class="sb-yr-dot"></div></div><span class="sb-yr-label">${yrData.year}</span><span class="sb-count">${total}</span>`;
+    const go = () => scrollToYear(yrData.year);
+    yr.addEventListener('click', go);
+    yr.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
     wrap.appendChild(yr);
- 
+
     yrData.series.forEach(s => {
       const sid = mkSid(yrData.year, s);
-      const btn = document.createElement('button');
-      btn.className = 'sb-item';
-      btn.dataset.sid = sid;
+      const item = document.createElement('div');
+      item.className = 'sb-item';
+      item.dataset.sid = sid;
+
       const displayTitle = s.name || s.works[0]?.title || '';
-      const extra = !s.name && s.works.length > 1 ? ` +${s.works.length-1}` : '';
-      btn.innerHTML = `
-       <div class="sb-sm-dot-wrap"><div class="sb-sm-dot"></div></div>
-        <div class="sb-item-text">
-          ${s.name ? `<div class="sb-series-sup">${s.name}</div>` : ''}
-          <div class="sb-title">${displayTitle}${extra}</div>
-        </div>`;
-      btn.addEventListener('click', () => scrollToSeries(sid));
-      wrap.appendChild(btn);
+      const extra = !s.name && s.works.length > 1 ? ` +${s.works.length - 1}` : '';
+      const showCount = s.name && s.works.length > 1;
+
+      const thumbs = s.works.length > 1 ? s.works.filter(w => w.src).map(w => {
+        const tw = Math.max(22, Math.min(56, Math.round(34 * (w.aspect || 1))));
+        const t = w.title.replace(/"/g, '&quot;');
+        return `<button class="sb-thumb" data-id="${w.id}" title="${t}" aria-label="${t}" style="width:${tw}px"><img src="${thumbOf(w.src)}" alt="" loading="lazy"></button>`;
+      }).join('') : '';
+
+      item.innerHTML = `
+        <button class="sb-item-head">
+          <div class="sb-sm-dot-wrap"><div class="sb-sm-dot"></div></div>
+          <div class="sb-item-text">
+            ${s.name ? `<div class="sb-series-sup">${s.name}</div>` : ''}
+            <div class="sb-title">${displayTitle}${extra}</div>
+          </div>
+          ${showCount ? `<span class="sb-count">${s.works.length}</span>` : ''}
+        </button>
+        ${thumbs ? `<div class="sb-thumbs"><div class="sb-thumbs-in">${thumbs}</div></div>` : ''}`;
+
+      item.querySelector('.sb-item-head').addEventListener('click', () => scrollToSeries(sid));
+      item.querySelectorAll('.sb-thumb').forEach(b => b.addEventListener('click', () => openWork(b.dataset.id)));
+      wrap.appendChild(item);
     });
- 
+
     scroll.appendChild(wrap);
   });
 }
- 
+
+function openWork(id) {
+  const card = document.querySelector(`.work-card[data-id="${id}"]`);
+  if (!card) return;
+  if (card.classList.contains('expanded')) scrollCardIntoView(card);
+  else card.click();
+}
+function syncThumbs() {
+  document.querySelectorAll('.sb-thumb').forEach(t => t.classList.toggle('on', t.dataset.id === expandedId));
+}
+function stepWork(dir) {
+  const cards = [...document.querySelectorAll('.work-card')];
+  const i = cards.findIndex(c => c.classList.contains('expanded'));
+  if (i > -1) cards[i + dir]?.click();
+}
+
 function buildFilterChips() {
-  const c = document.getElementById('fp-chips');
-  c.innerHTML = `<button class="fp-chip active" onclick="setFilter('all',this)">All</button>`
-    + DATA.map(y => `<button class="fp-chip" onclick="setFilter('${y.year}',this)">${y.year}</button>`).join('');
+  const panel = document.getElementById('filter-panel');
+  const keepScroll = panel.scrollTop;
+  const rows = DATA.flatMap(y => y.series.flatMap(s => s.works.map(w => ({ w, year: y.year }))));
+  const all = rows.map(r => r.w);
+  const pass = (r, f) => (!f.year || r.year === f.year) && (!f.type || r.w.type === f.type)
+    && (!f.medium || mediumsOf(r.w).includes(f.medium)) && (!f.tag || (r.w.tags || []).map(normTag).includes(f.tag));
+  const liveCount = (k, v) => rows.filter(r => pass(r, { ...filters, [k]: v })).length;
+  const tally = arr => { const m = new Map(); arr.forEach(v => m.set(v, (m.get(v) || 0) + 1)); return [...m]; };
+  const years  = DATA.map(y => [y.year, y.series.reduce((a, s) => a + s.works.length, 0)]);
+  const types  = tally(all.map(w => w.type).filter(Boolean));
+  const meds   = tally(all.flatMap(mediumsOf)).filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1]);
+  const tags   = tally(all.flatMap(w => [...new Set((w.tags || []).map(normTag))]).filter(t => !TAG_SKIP.has(t)))
+                   .filter(([, n]) => n >= 3).sort((a, b) => b[1] - a[1]).slice(0, 14);
+  const grp = (label, key, items) => `
+    <div class="fp-group"><div class="fp-lbl">${label}</div><div class="fp-chips">
+      ${items.map(([v]) => { const n = liveCount(key, v), on = filters[key] === v;
+        return `<button class="fp-chip${on ? ' active' : ''}" data-k="${key}" data-v="${v}"${n === 0 && !on ? ' disabled' : ''}>${v}<i>${n}</i></button>`; }).join('')}
+    </div></div>`;
+  const any = Object.values(filters).some(Boolean);
+  panel.innerHTML = `
+    <div class="fp-head"><span class="fp-count">${countVisible()} of ${all.length} works</span><button class="fp-clear"${any ? '' : ' disabled'}>Clear all</button></div>
+    ${grp('Year', 'year', years)}${grp('Type', 'type', types)}${grp('Medium', 'medium', meds)}${grp('Subject', 'tag', tags)}
+    <div class="fp-group fp-pages"><div class="fp-lbl">Pages</div><div class="fp-chips">
+      <button class="fp-chip" data-page="about">About</button><button class="fp-chip" data-page="contact">Contact</button>
+    </div></div>`;
+  panel.scrollTop = keepScroll;
 }
  
  
@@ -583,7 +665,7 @@ function handleCardClick(work, sid, seriesNode, card) {
  
   if (clickedSameCard) return;
  
-  expandedId = work.id;
+  expandedId = work.id; syncThumbs();
   card.classList.add('expanded');
   upgradeToFull(card);
   
@@ -617,6 +699,7 @@ function collapseAll() {
   }
  
   document.querySelectorAll('.detail-panel.open').forEach(p => p.classList.remove('open'));
+  expandedId = null; syncThumbs();
  
   expandedId = null;
 }
@@ -640,10 +723,20 @@ function activate(sid, year) {
   document.querySelectorAll('.year-node').forEach(el    => el.classList.toggle('in-view', el.dataset.year === year));
   document.querySelectorAll('.sb-item').forEach(el      => el.classList.toggle('active', el.dataset.sid === sid));
   document.querySelectorAll('.sb-year-row').forEach(el  => el.classList.toggle('active', el.dataset.year === year));
-  document.querySelector(`.sb-item[data-sid="${sid}"]`)?.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  let passed = true;
+  document.querySelectorAll('#sb-scroll .sb-year-row, #sb-scroll .sb-item').forEach(el => {
+    if (el.classList.contains('sb-item') && el.dataset.sid === sid) passed = false;
+    el.classList.toggle('passed', passed);
+  });
+  const sc = document.getElementById('sb-scroll');
+  const it = sc.querySelector(`.sb-item[data-sid="${sid}"]`);
+  if (it) {
+    const r = it.getBoundingClientRect(), c = sc.getBoundingClientRect();
+    if (r.top < c.top + 40 || r.bottom > c.bottom - 40) sc.scrollBy({ top: r.top - c.top - c.height / 3, behavior: 'smooth' });
+  }
   const node = allSeriesNodes().find(n => n.sid === sid);
   if (node) {
-    document.getElementById('tb-name').textContent = node.s.name || node.s.works[0]?.title || '';
+    document.getElementById('tb-name').textContent = crumbOf(node);
     if (node.s.works[0]) updateMobInfo({ ...node.s.works[0], year: node.year });
   }
 }
@@ -697,15 +790,52 @@ function toggleFilter() {
   document.getElementById('mb-filter-btn')?.classList.toggle('active', filterOpen);
   if (filterOpen && mobInfoOpen) toggleMobInfo();
 }
-function setFilter(year, el) {
-  document.querySelectorAll('.fp-chip').forEach(c => c.classList.remove('active'));
-  el.classList.add('active');
-  activeYear = year === 'all' ? null : year;
+function toggleFilterValue(k, v) { filters[k] = filters[k] === v ? null : v; applyFilters(); }
+function clearFilters() { Object.keys(filters).forEach(k => filters[k] = null); applyFilters(); }
+
+function applyFilters() {
+  if (activePage) { activePage = null; setFootActive('work'); document.body.classList.remove('on-page'); }
   activeId = null; expandedId = null;
   buildAll();
-  toggleFilter();
-  scrollToTop();
-  setTimeout(() => { const f = allSeriesNodes()[0]; if(f) activate(f.sid, f.year); setupObserver(); }, 100);
+  updateFilterUI();
+  document.getElementById('scroll-area').scrollTo({ top: 0 });
+  const f = allSeriesNodes()[0];
+  if (f) activate(f.sid, f.year); else document.getElementById('tb-name').innerHTML = '&nbsp;';
+  setupObserver();
+}
+
+function updateFilterUI() {
+  buildFilterChips();
+  const act = Object.entries(filters).filter(([, v]) => v);
+  const bar = document.getElementById('active-filters');
+  bar.hidden = !act.length;
+  bar.innerHTML = act.map(([k, v]) => `<button class="af-pill" data-k="${k}" title="Remove filter">${v}<span>✕</span></button>`).join('')
+    + `<span class="af-count">${countVisible()} works</span><button class="af-clear">Clear all</button>`;
+  document.querySelectorAll('.fb-badge').forEach(b => { b.textContent = act.length; b.hidden = !act.length; });
+}
+
+function initFilterUI() {
+  document.getElementById('filter-panel').addEventListener('click', e => {
+    const chip = e.target.closest('.fp-chip');
+    if (chip && chip.dataset.page) { openPage(chip.dataset.page); toggleFilter(); }
+    else if (chip) toggleFilterValue(chip.dataset.k, chip.dataset.v);
+    else if (e.target.closest('.fp-clear')) clearFilters();
+    e.stopPropagation();
+  });
+  document.getElementById('active-filters').addEventListener('click', e => {
+    const pill = e.target.closest('.af-pill');
+    if (pill) toggleFilterValue(pill.dataset.k, pill.dataset.k && filters[pill.dataset.k]);
+    else if (e.target.closest('.af-clear')) clearFilters();
+    e.stopPropagation();
+  });
+  document.addEventListener('click', e => {
+    if (filterOpen && !e.target.closest('#filter-panel, #btn-filter, #mb-filter-btn')) toggleFilter();
+  });
+  updateFilterUI();
+}
+
+function setFootActive(key) {
+  document.querySelectorAll('.sb-foot a').forEach(a => a.classList.toggle('active', a.dataset.page === key));
 }
  
 function updateMobInfo(work) {
@@ -724,11 +854,12 @@ function toggleMobInfo() {
 document.addEventListener('keydown', e => {
   if (e.key==='ArrowDown'||e.key==='j') { e.preventDefault(); navNext(); }
   if (e.key==='ArrowUp'  ||e.key==='k') { e.preventDefault(); navPrev(); }
-  if (e.key==='Escape') { collapseAll(); if(filterOpen)toggleFilter(); if(mobInfoOpen)toggleMobInfo(); }
+  if ((e.key==='ArrowRight'||e.key==='ArrowLeft') && expandedId) { e.preventDefault(); stepWork(e.key==='ArrowRight' ? 1 : -1); }
+  if (e.key==='Escape') { if (activePage) closePage(); collapseAll(); if(filterOpen)toggleFilter(); if(mobInfoOpen)toggleMobInfo(); }
 });
  
 buildAll();
-buildFilterChips();
+initFilterUI();
 initFootLinks();
 setTimeout(() => {
   const f = allSeriesNodes()[0];
@@ -789,6 +920,7 @@ const PAGES = {
     title: 'About',
     render: () => `
       <div class="static-page">
+        <button class="sp-back" onclick="closePage()">← Back to portfolio</button>
         <h1 class="sp-title">About Me</h1>
         <div class="sp-body">
           <p>Once an artist, always an artist</p>
@@ -802,6 +934,7 @@ const PAGES = {
     title: 'Contact',
     render: () => `
       <div class="static-page">
+        <button class="sp-back" onclick="closePage()">← Back to portfolio</button>
         <h1 class="sp-title">Contact</h1>
         <div class="sp-body">
  
@@ -812,8 +945,8 @@ const PAGES = {
 
           <div class="sp-block sp-commissions">
             <div class="sp-label">Commissions</div>
-            <p>My commissions are currently closed.</p>
-            <p> Unless you pay hella money, of course! If you have hella money and a fire idea we can work on, then hit me up.</p>
+            <p>My commissions are currently open.</p>
+            <p>Feel free to message me and we'll discuss the details. Serious inquiries only, please. I don't have time to waste.</p>
           </div>
  
         </div>
@@ -837,6 +970,8 @@ function openPage(key) {
   inner.innerHTML = page.render();
  
   document.getElementById('tb-name').textContent = page.title;
+  document.body.classList.add('on-page');
+  document.getElementById('to-top')?.classList.remove('show');
  
   document.querySelectorAll('.sb-foot a').forEach(a => {
     a.classList.toggle('active', a.dataset.page === key);
@@ -851,11 +986,12 @@ function closePage() {
   activePage = null;
  
   buildMain();
-  document.querySelector('.sb-foot a.active')?.classList.remove('active');
+  setFootActive('work');
+  document.body.classList.remove('on-page');
  
   const node = allSeriesNodes().find(n => n.sid === activeId);
   document.getElementById('tb-name').textContent = node
-    ? (node.s.name || node.s.works[0]?.title || '')
+    ? crumbOf(node)
     : '';
  
   setTimeout(() => setupObserver(), 100);
@@ -865,13 +1001,18 @@ function initFootLinks() {
   document.querySelectorAll('.sb-foot a[data-page]').forEach(a => {
     a.addEventListener('click', e => {
       e.preventDefault();
-      openPage(a.dataset.page);
+      if (a.dataset.page === 'work') scrollToTop(); else openPage(a.dataset.page);
     });
   });
 }
  
 document.addEventListener('click', e => {
   if (e.target.closest('.tb-crumb-archive')) {
-    if (activePage) closePage();
+    scrollToTop();
   }
 });
+
+(() => {
+  const sa = document.getElementById('scroll-area'), fab = document.getElementById('to-top');
+  sa.addEventListener('scroll', () => fab.classList.toggle('show', sa.scrollTop > 600 && !activePage), { passive: true });
+})();
